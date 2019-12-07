@@ -1,579 +1,122 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,900,700');
 
 
-.a1 {
-  width               : 100%;
-  min-width           : 1140px;
-  height              : 100vh;
-  min-height          : 1402px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(58, 64, 98, 1.0);
-}
+/* .a1 {
+} */
 a {
   text-decoration     : none;
 }
-div {
-  -webkit-text-size-adjust: none;
-}
-.anima-full-width-a {
+
+/* .anima-full-width-a {
   width               : 100%;
 }
 .anima-full-height-a {
-  height              : 100%;
+  height              : 100%; */
+/* } */
+
+
+#mainNav {
+  min-height: 150px;
+  background-color: #2A304D;
 }
-div {
-  -webkit-text-size-adjust: none;
+/* #mainNav .container{
+ max-width:720px ; 
+} */
+
+#mainNav .navbar-brand {
+  font-family         : "Lato", Helvetica, Arial, serif;
+  color               : #FC5C29;
+  /* colors for the brand text */
+  font-style          : normal;
+  font-size           : 48.0px;
+  /* padding: 2 rem 0; */
+  /* margin-left: 20%; */
+ 
 }
-.a1 .session2principles {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 519px;
-  height              : 883px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+
+/* #mainNav .navbar-nav {
+  margin-left: 20%;
+} */
+
+#mainNav .navbar-nav .uxprinciplesformo{
+  min-height: 50px;
+  font-family: Lato-Black;
+  font-size: 1.25 rem;
+  color: #FC5C29;
+  letter-spacing: 0;
 }
-.a1 .session2principles .rectangle {
-  background-color    : rgba(58, 64, 98, 1.0);
-  top                 : 0px;
-  height              : 883px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+
+
+#mainNav .navbar-nav .nav-item {
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  /* color               :#FC5C29; */
+  text-align          : right;
+  line-height         : 36.0px;
+
 }
-.a1 .session2principles .subtitletext {
-  background-color    : rgba(255,255,255,0.0);
+
+#mainNav .navbar-nav .nav-item:hover {
+  /* color: fade(white, 80%); */
+  color               :#FC5C29;
+  outline: none;
+  /* background-color: transparent; */
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #FC5C29;
+  border: 1px solid #FC5C29;
+}
+
+
+
+.masthead{
+  /* background-color: red; */
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  min-height: 10px;
+  padding: 4rem 0;
+}
+
+
+#about {
+  /* background-color: lightblue; */
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 10rem;
+  padding: 15rem 0;
+}
+#about .subtitletext {
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+  font-size           : 1.2rem;
   top                 : 40px;
   height              : 48px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
+  width               : 240px; 
   left                : 37px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .subtitletext .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .subtitletext .easing {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : 242px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 39px;
-  height              : 550px;
-  width               : 549px;
-  position            : absolute;
-  margin              : 0;
-  left                : 292px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok11 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok11 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok12 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok12 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 375px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok13 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok13 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 187px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok21 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok21 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 187px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok22 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok22 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 375px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 187px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok23 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok23 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok31 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok31 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok31 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok32 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok32 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok32 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session2principles .groupblock .blok33 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 375px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 374px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok33 .rectangle1 {
-  background-color    : rgba(238, 238, 238, 0.2);
-  top                 : 0px;
-  height              : 175px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session2principles .groupblock .blok33 .motionex {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
-  height              : auto;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(55, 55, 56, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session1about {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 267px;
-  height              : 252px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session1about .rectangle {
-  background-color    : rgba(58, 64, 98, 1.0);
-  top                 : 0px;
-  height              : 252px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session1about .subtitletext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
-  height              : 48px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session1about .subtitletext .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.a1 .session1about .subtitletext .easing {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : 242px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a1 .session1about .thisisatoolwebsi {
-  background-color    : rgba(255,255,255,0.0);
+} 
+
+#about .thisisatoolwebsi {
   top                 : 48px;
   height              : auto;
-  width               : 652px;
-  position            : absolute;
-  margin              : 0;
+  width               : 100%; 
   left                : 292px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
@@ -582,113 +125,100 @@ div {
   text-align          : left;
   line-height         : 36.0px;
 }
-.a1 .headernavbox {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 252px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+
+
+
+
+#principles {
+  /* background-color    :lightgreen; */
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 20rem;
+  padding: 15rem 0;
 }
-.a1 .headernavbox .uxprinciplesformo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 140px;
-  height              : auto;
-  width               : 747px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+
+#principles .subtitletext {
   font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 900;
+  font-weight         : 300;
   font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(252, 92, 41, 1.0);
+  color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
-  line-height         : 29.0px;
+  line-height         : 36.0px;
+  font-size           : 1.2rem;
+  top                 : 40px;
+  height              : 48px;
+  width               : 240px; 
+  left                : 37px;
+      
 }
-.a1 .headernavbox .ixmo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
+
+#about .subtitletext .easing #principles .subtitletext .easing {
+  top                 : 2px;
   height              : auto;
-  width               : 747px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 900;
-  font-style          : normal;
-  font-size           : 72.0px;
-  color               : rgba(252, 92, 41, 1.0);
-  text-align          : left;
-  line-height         : 86.0px;
+  width               : 242px;
 }
-.a1 .headernavbox .about {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 48px;
+
+#groupblok {
+  top                 : 40px;
   height              : auto;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 767px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 22.0px;
+  width               : 100%;     
 }
-.a1 .headernavbox .principles {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 91px;
-  height              : auto;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 767px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+
+
+#groupblok .blok {
+  background-color    :lightgrey;
+  border: 4px solid #3A4062;
+  /* border-style: hidden; */
+  height              : 160px;
+  width               : 160px; 
+  /* padding: 2rem;  */
+}
+
+#groupblok .blok:hover{
+transform: scale(0.95);
+transition : all 0.2s ease-in-out;
+
+}
+
+#groupblok .blok .inner{
+  background-color    :white;
+  opacity: 80%;
+  height              : 100%;
+  width               : 100%; 
+  padding: 2rem 0 ; 
+}
+
+#groupblok .blok .bloktext {
+
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
   font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  font-size           : 1rem;
+  color               : rgba(55, 55, 56, 1.0);
   text-align          : center;
-  line-height         : 22.0px;
+  /* line-height         : 36.0px; */
+
 }
-.a1 .headernavbox .examples {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 134px;
-  height              : auto;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 767px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 22.0px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
   opacity             : 0;
