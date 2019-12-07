@@ -65,7 +65,7 @@
    - add more attributions to the motion (speed,fade,curvature,delays,sizes)
    - can change color for the examples
 
-   \##part 5 - challenges
+   ##part 5 - challenges
 
    1. Ways to minimize errors with proper structure - My website initially has a lot of errors and bugs. This was due to not structuring my design components well. things were not grouped. So when the code runs, a lot of stuff is floating around
    2. Getting stuck right from the beginning with CSS grid systems when using bootstraps.
