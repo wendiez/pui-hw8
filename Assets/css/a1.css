@@ -102,7 +102,7 @@ a {
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
   font-style          : normal;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgba(255, 255, 255,1.0);
   text-align          : left;
   line-height         : 36.0px;
   font-size           : 1.2rem;
@@ -118,10 +118,10 @@ a {
   width               : 100%; 
   left                : 292px;
   font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 400;
+  font-weight         : 300;
   font-style          : normal;
-  font-size           : 30.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 0.8);
   text-align          : left;
   line-height         : 36.0px;
 }
