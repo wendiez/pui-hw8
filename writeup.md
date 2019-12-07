@@ -2,6 +2,8 @@
 
    ## website
 
+   <https://wendiez.github.io/ux-motion-principles/>
+
    ## part 1
 
    ### i. What is the purpose of your website?
@@ -44,19 +46,21 @@
 
    i. Name of the tool
 
-   1. popmotion
-   2. bootstrap
-   3. animations.js
+   1. [popmotion](<https://popmotion.io/>)
+   2. [bootstrap](<https://getbootstrap.com/>)
+   3. [animate.css](<https://daneden.github.io/animate.css/>)
 
    ii. Why you chose to use it?
 
-   In order to implement motion that can be manipulated with simple variables. Pop-motion supports a lightweight motion to support common UX rationales.
+   In order to implement motion that can be manipulated with simple variables. [popmotion](<https://popmotion.io/>)supports a lightweight motion to support common UX rationales.
 
    iii. How you used it?
 
-   Use popmotion together with CSS. CSS for general functions like buttons, navigation. Popmotion for the motion examples and the write js functions to let users control and see changes.
+   Use popmotion together with CSS. [animate.css](<https://daneden.github.io/animate.css/>)for general functions like buttons, navigation. Popmotion for the motion examples and the write js functions to let users control and see changes.
 
    iv. What it adds to your website?
+
+   fun and engaging animation that runs smoothly and can be understand by beginner codes such as a designer.
 
    ## part 4
 
