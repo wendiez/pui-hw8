@@ -1,6 +1,72 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,900,700');
 
 
+
+
+#mainNav {
+  min-height: 150px;
+  background-color: #2A304D;
+}
+/* #mainNav .container{
+ max-width:720px ; 
+} */
+
+#mainNav .navbar-brand {
+  font-family         : "Lato", Helvetica, Arial, serif;
+  color               : #FC5C29;
+  /* colors for the brand text */
+  font-style          : normal;
+  font-size           : 48.0px;
+  /* padding: 2 rem 0; */
+  /* margin-left: 20%; */
+ 
+}
+
+/* #mainNav .navbar-nav {
+  margin-left: 20%;
+} */
+
+#mainNav .navbar-nav .uxprinciplesformo{
+  min-height: 50px;
+  font-family: Lato-Black;
+  font-size: 1.25 rem;
+  color: #FC5C29;
+  letter-spacing: 0;
+}
+
+
+#mainNav .navbar-nav .nav-item {
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  /* color               :#FC5C29; */
+  text-align          : right;
+  line-height         : 36.0px;
+
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  /* color: fade(white, 80%); */
+  color               :#FC5C29;
+  outline: none;
+  /* background-color: transparent; */
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #FC5C29;
+  border: 1px solid #FC5C29;
+}
+
+
 .a2 {
   width               : 100%;
   min-width           : 1140px;
@@ -13,7 +79,7 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(58, 64, 98, 1.0);
 }
-a {
+/* a {
   text-decoration     : none;
 }
 div {
@@ -27,7 +93,7 @@ div {
 }
 div {
   -webkit-text-size-adjust: none;
-}
+} */
 .anima-animate-enter {
   opacity             : 0;
   filter              : blur(10px);
@@ -113,9 +179,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .headernavsmall .headernavsmall1 {
   background-color    : rgba(255,255,255,0.0);
@@ -125,9 +191,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .headernavsmall .headernavsmall1 .headernavsmallbg {
   background-color    : rgba(58, 64, 98, 1.0);
@@ -137,9 +203,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .headernavsmall .headernavsmall1 .headernavsmalltext {
   background-color    : rgba(255,255,255,0.0);
@@ -149,9 +215,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 133px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .headernavsmall .headernavsmall1 .headernavsmalltext .about {
   background-color    : rgba(255,255,255,0.0);
@@ -161,9 +227,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
@@ -184,9 +250,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
@@ -207,9 +273,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 245px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
@@ -230,9 +296,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 37px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 900;
   font-style          : normal;
@@ -249,9 +315,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 86px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext {
   background-color    : rgba(255,255,255,0.0);
@@ -261,9 +327,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .motionblok {
   background-color    : rgba(255,255,255,0.0);
@@ -273,9 +339,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 395px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
 }
 .a2 .sessionmain .sessionmaincontext .motionblok:hover {
@@ -289,9 +355,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .motionblok .rectangle1 {
   background-color    : rgba(244, 244, 244, 0.2);
@@ -301,9 +367,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 73px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .motionblok .rectanglecopy {
   background-color    : rgba(244, 244, 244, 0.2);
@@ -313,9 +379,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 158px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .textdescr {
   background-color    : rgba(255,255,255,0.0);
@@ -325,9 +391,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .textdescr .loremipsumdolorsi {
   background-color    : rgba(255,255,255,0.0);
@@ -337,9 +403,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
   font-style          : normal;
@@ -356,9 +422,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller {
   background-color    : rgba(255,255,255,0.0);
@@ -368,9 +434,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller1 {
   background-color    : rgba(255,255,255,0.0);
@@ -381,9 +447,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller1:hover {
@@ -397,9 +463,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller1 .controlline {
   background-color    : rgba(255,255,255,0.0);
@@ -409,9 +475,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller1 .speed {
   background-color    : rgba(255,255,255,0.0);
@@ -421,9 +487,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
@@ -440,9 +506,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 145px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller2 {
   background-color    : rgba(255,255,255,0.0);
@@ -453,9 +519,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller2:hover {
@@ -469,9 +535,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller2 .controlline {
   background-color    : rgba(255,255,255,0.0);
@@ -481,9 +547,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller2 .speed {
   background-color    : rgba(255,255,255,0.0);
@@ -493,9 +559,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
@@ -512,9 +578,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 145px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller3 {
   background-color    : rgba(255,255,255,0.0);
@@ -525,9 +591,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller3:hover {
@@ -541,9 +607,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller3 .controlline {
   background-color    : rgba(255,255,255,0.0);
@@ -553,9 +619,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .sessionmaincontext .controller .controller3 .speed {
   background-color    : rgba(255,255,255,0.0);
@@ -565,9 +631,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
@@ -584,9 +650,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 145px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sessionmain .subtitleani {
   background-color    : rgba(255,255,255,0.0);
@@ -595,26 +661,26 @@ div {
   width               : 174px;
   position            : absolute;
   margin              : 0;
-  left                : 397px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  left                : 120px;
+   
+   
+   
 }
 .a2 .sessionmain .subtitleani .easing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -24px;
+  top                 : 24px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 60.0px;
+  font-size           : 36.0px;
   color               : rgba(252, 92, 41, 1.0);
   text-align          : left;
   line-height         : 36.0px;
@@ -625,9 +691,9 @@ div {
   height              : 250px;
   pointer-events      : auto;
   position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sidenavi-layout-container {
   pointer-events      : none;
@@ -650,9 +716,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
 }
 .a2 .sidenavi .navtext:hover {
@@ -666,9 +732,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sidenavi .navtext .previous {
   background-color    : rgba(255,255,255,0.0);
@@ -698,9 +764,9 @@ div {
   margin              : 0;
   left                : 9px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sidenavi .navtext .icnup .background1 {
   background-color    : rgba(255,255,255,0.0);
@@ -710,9 +776,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sidenavi .navtext .icnup .fill1 {
   background-color    : rgba(255,255,255,0.0);
@@ -747,9 +813,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
   transition          : all 0.2s ease-in-out;
 }
 .a2 .sidenavi .navtextcopy:hover {
@@ -763,9 +829,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .sidenavi .navtextcopy .previous {
   background-color    : rgba(255,255,255,0.0);
@@ -794,9 +860,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 9px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .ndot2 {
   background-color    : rgba(255,255,255,0.0);
@@ -804,13 +870,13 @@ div {
   height              : 189px;
   pointer-events      : auto;
   position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .ndot2-layout-container {
   pointer-events      : none;
-  right               : 173px;
+  left               : 200px;
   flex-direction      : column;
   top                 : 0;
   height              : 100%;
@@ -826,9 +892,9 @@ div {
   height              : 189px;
   pointer-events      : auto;
   position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+   
+   
+   
 }
 .a2 .ndot2 .ndot21-layout-container {
   pointer-events      : none;
