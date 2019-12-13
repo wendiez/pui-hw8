@@ -79,6 +79,31 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(58, 64, 98, 1.0);
 }
+
+
+#box {
+  /* margin-top:  */
+  width: 100px;
+  height: 100px;
+  background: #FC5C29;
+  border-radius: 50%;
+}
+
+#start{
+  margin-top: 250px;
+  width: 100px;
+  height: 40px;
+  background: #FC5C29;
+  /* border-radius: 50%; */
+  /* text-align: center; */
+  font-size: 100%;
+  padding: 0.5rem;
+
+}
+
+
+
+
 /* a {
   text-decoration     : none;
 }
@@ -307,6 +332,10 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+
+
+
+
 .a2 .sessionmain {
   background-color    : rgba(255,255,255,0.0);
   top                 : 135px;
@@ -344,9 +373,12 @@ div {
    
   transition          : all 0.2s ease-in-out;
 }
-.a2 .sessionmain .sessionmaincontext .motionblok:hover {
+
+/* .a2 .sessionmain .sessionmaincontext .motionblok:hover {
   filter              : blur(10px);
-}
+} */
+
+
 .a2 .sessionmain .sessionmaincontext .motionblok .rectangle {
   background-color    : rgba(244, 244, 244, 0.2);
   top                 : 0px;
