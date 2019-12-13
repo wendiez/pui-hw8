@@ -67,7 +67,7 @@
 }
 
 
-.a2 {
+/* .a2 {
   width               : 100%;
   min-width           : 1140px;
   height              : 100vh;
@@ -78,366 +78,291 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(58, 64, 98, 1.0);
-}
+} */
 
 
 #box {
   /* margin-top:  */
+  visibility: hidden;
   width: 100px;
   height: 100px;
   background: #FC5C29;
   border-radius: 50%;
 }
 
-#start{
-  margin-top: 250px;
-  width: 100px;
+#startbutton{
+  /* margin-top: 250px; */
+  width: auto;
   height: 40px;
-  background: #FC5C29;
+  /* background: #FC5C29; */
+  border: 1px solid #FC5C29;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#startbutton h2{
   /* border-radius: 50%; */
-  /* text-align: center; */
-  font-size: 100%;
-  padding: 0.5rem;
+  text-align: center;
+  /* margin: auto; */
+  font-size: 0.8rem;
+  color: antiquewhite;
+  /* padding: 0.5rem; */
+}
 
+#startbutton:hover{
+  /* background: #ffffff; */
+  cursor: pointer;
+  transform           : scale(1.1);
 }
 
 
+.range-slider {
+  width: 100%;
+  height: 100px;
+  /* margin: 50% auto */
+  text-align: left;
+  font-size: 0.8rem;
+  color: antiquewhite;
+  /* padding: 0.5rem; */
+}
+.range-slider:hover{
+  /* transform           : scale(1.1); */
+  transform           : translate(-5px, 0);
+}
+#rangevalue1,#rangevalue2 {
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
 
+}
 
-/* a {
-  text-decoration     : none;
+input[type=range] {
+  /* height: 25px; */
+  /* -webkit-appearance: none; */
+  margin: 10px 0;
+  width: 100%;
 }
-div {
-  -webkit-text-size-adjust: none;
+input[type=range]:focus {
+  outline: none;
 }
-.anima-full-width-a {
-  width               : 100%;
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  animate: 0.2s;
+  /* box-shadow: 0px 0px 0px #000000; */
+  background: #FC5C29;
+  border-radius: 1px;
+  /* border: 0px solid #000000; */
 }
-.anima-full-height-a {
-  height              : 100%;
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  /* border: 1px solid #FC5C29; */
+  height: 18px;
+  width: 26px;
+  border-radius: 25px;
+  background: #FC5C29;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
 }
-div {
-  -webkit-text-size-adjust: none;
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #FC5C29;
+}
+
+/* input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #FC5C29;
+  border-radius: 1px;
+  border: 0px solid #000000;
 } */
-.anima-animate-enter {
-  opacity             : 0;
-  filter              : blur(10px);
-  display             : block;
-  -webkit-animation   : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #FC5C29;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  /* background: #A1D0FF; */
+  cursor: pointer;
 }
-@-webkit-keyframes anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  filter: blur(10px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  filter: none;
-    }
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
 }
-@-moz-keyframes anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  filter: blur(10px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  filter: none;
-    }
+input[type=range]::-ms-fill-lower {
+  background: #FC5C29;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
 }
-@-o-keyframes anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  filter: blur(10px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  filter: none;
-    }
+input[type=range]::-ms-fill-upper {
+  background: #FC5C29;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
 }
-@keyframes anima-animate-enter-frames {
-  0%
-   
-  {
-  opacity: 0;
-  filter: blur(10px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  filter: none;
-    }
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #FC5C29;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
 }
-.a2 .headernavsmall {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 1140px;
-  position            : absolute;
+input[type=range]:focus::-ms-fill-lower {
+  background: #FC5C29;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #FC5C29;
+}
+
+
+/* settings */
+
+
+
+
+.bigblok{
+  /* background-color    : red; */
+  position: relative;
+  width: 100%;
+}
+
+.topspace {
+  /* background-color    : lightcoral; */
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+}
+
+#main h1{
+  width: auto;
+  /* background-color    :rgba(244, 244, 244, 0.2); */
+  position: relative;
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(252, 92, 41, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+  padding: 2rem;
+  /* margin: auto; */
+
+
+
+}
+
+.motionblok {
+  background-color    :rgba(244, 244, 244, 0.2);
+  position: relative;
+  /* width: 100%; */
+  min-width: 340px;
+  height: auto;
+  /* top                 : 0px;
+  height              : 448px;
+  width               : 448px; */
+  /* position            : absolute;
   margin              : 0;
-  left                : 0px;
-   
-   
-   
+  left                : 395px; */
+  transition          : all 0.2s ease-in-out;
 }
-.a2 .headernavsmall .headernavsmall1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 1140px;
+
+.motionblok .rectangle1 {
+  background-color    : #FC5C29;
+  opacity: 0.8;
+  /* top                 : 104px; */
+  height              : 133px;
+  width               : 133px;
   position            : relative;
   margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmallbg {
-  background-color    : rgba(58, 64, 98, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 29px;
-  width               : 345px;
-  position            : absolute;
-  margin              : 0;
-  left                : 133px;
-   
-   
-   
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext .about {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext .about:hover {
-  transform           : scale(1.1);
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext .principles {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 122px;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext .principles:hover {
-  transform           : scale(1.1);
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext .examples {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 245px;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.a2 .headernavsmall .headernavsmall1 .headernavsmalltext .examples:hover {
-  transform           : scale(1.1);
-}
-.a2 .headernavsmall .headernavsmall1 .ixmo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
-  height              : auto;
-  width               : 79px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-   
-   
-   
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 900;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(252, 92, 41, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-
-
-
-
-.a2 .sessionmain {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 135px;
-  height              : 663px;
-  width               : 843px;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 105px;
-  height              : 567px;
-  width               : 843px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .motionblok {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 448px;
-  width               : 448px;
-  position            : absolute;
-  margin              : 0;
-  left                : 395px;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-}
-
-/* .a2 .sessionmain .sessionmaincontext .motionblok:hover {
-  filter              : blur(10px);
-} */
-
-
-.a2 .sessionmain .sessionmaincontext .motionblok .rectangle {
-  background-color    : rgba(244, 244, 244, 0.2);
-  top                 : 0px;
-  height              : 448px;
-  width               : 448px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .motionblok .rectangle1 {
-  background-color    : rgba(244, 244, 244, 0.2);
-  top                 : 104px;
-  height              : 133px;
-  width               : 133px;
-  position            : absolute;
-  margin              : 0;
   left                : 73px;
-   
-   
-   
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
 }
-.a2 .sessionmain .sessionmaincontext .motionblok .rectanglecopy {
+
+
+.motionblok .rectanglecopy {
   background-color    : rgba(244, 244, 244, 0.2);
-  top                 : 104px;
-  height              : 133px;
-  width               : 133px;
-  position            : absolute;
-  margin              : 0;
+  /* top                 : 104px; */
+  height              : 80px;
+  width               : 80px;
+  position            : relative;
+  margin              : 1rem;
   left                : 158px;
-   
-   
-   
+
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
 }
-.a2 .sessionmain .sessionmaincontext .textdescr {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 315px;
-  height              : 252px;
-  width               : 381px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
+
+
+.leftside {
+  /* background-color    :lightskyblue; */
+  position: relative;
+  width: 340px;
+  min-width: 120px;
+  height: auto;
 }
-.a2 .sessionmain .sessionmaincontext .textdescr .loremipsumdolorsi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 367px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-   
-   
-   
+
+.controller{
+  /* background-color    :lightyellow; */
+  position: relative;
+  width: auto;
+  min-width: 100px;
+
+  height: auto;
+
+}
+
+.textdescr{
+/* background-color: lightseagreen; */
+position: relative;
+width: auto;
+min-width: 100px;
+height: auto;
+}
+
+.controller p{
+  font-family         : "Lato", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : #FC5C29;
+  text-align          : left;
+  line-height         : 36.0px;
+  
+  }
+
+
+.loremipsumdolorsi{
+  /* background-color: lightslategray; */
+
   font-family         : "Lato", Helvetica, Arial, serif;
   font-weight         : 300;
   font-style          : normal;
@@ -445,247 +370,17 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 36.0px;
+
+
 }
-.a2 .sessionmain .sessionmaincontext .textdescr .line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 228px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 208px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller1:hover {
-  transform           : translate(-5px, 0);
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller1 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller1 .controlline {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
-  height              : 1px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller1 .speed {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-   
-   
-   
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(252, 92, 41, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller1 .controlknob {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 145px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 72px;
-  height              : 64px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller2:hover {
-  transform           : translate(-5px, 0);
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller2 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller2 .controlline {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
-  height              : 1px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller2 .speed {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-   
-   
-   
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(252, 92, 41, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller2 .controlknob {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 145px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
-  height              : 64px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-   
-   
-   
-  transition          : all 0.2s ease-in-out;
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller3:hover {
-  transform           : translate(-5px, 0);
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller3 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller3 .controlline {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
-  height              : 1px;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-   
-   
-   
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller3 .speed {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-   
-   
-   
-  font-family         : "Lato", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(252, 92, 41, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
-}
-.a2 .sessionmain .sessionmaincontext .controller .controller3 .controlknob {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 145px;
-   
-   
-   
-}
+
+
+
+
+
+
+
+
 .a2 .sessionmain .subtitleani {
   background-color    : rgba(255,255,255,0.0);
   top                 : 9px;
@@ -769,6 +464,7 @@ div {
    
 }
 .a2 .sidenavi .navtext .previous {
+  cursor: pointer;
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 33px;
@@ -837,6 +533,7 @@ div {
   transform           : rotate(90deg);
 }
 .a2 .sidenavi .navtextcopy {
+  /* visibility: hidden; */
   background-color    : rgba(255,255,255,0.0);
   top                 : 129px;
   height              : 121px;
@@ -866,6 +563,7 @@ div {
    
 }
 .a2 .sidenavi .navtextcopy .previous {
+  cursor: pointer;
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 33px;
@@ -1023,4 +721,82 @@ div {
   display             : flex;
   flex-direction      : column;
   justify-content     : center;
+}
+
+.anima-animate-enter {
+  opacity             : 0;
+  filter              : blur(10px);
+  display             : block;
+  -webkit-animation   : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
+}
+@-moz-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
+}
+@-o-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
+}
+@keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  filter: blur(10px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  filter: none;
+    }
 }
